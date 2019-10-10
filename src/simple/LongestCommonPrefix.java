@@ -3,6 +3,7 @@ package simple;
 import java.util.Arrays;
 
 /**
+ * leetcode-14 最长公共前缀
  * 取最长公共前缀，字符串数组中的字符串为a-z
  *
  * @author yonghua.li01@hand-china.com 2019/09/04 15:40

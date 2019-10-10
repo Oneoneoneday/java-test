@@ -1,6 +1,7 @@
 package simple;
 
 /**
+ * leetcode-7 整数反转
  * 整数反转
  *
  * @author yonghua.li01@hand-china.com
@@ -10,6 +11,7 @@ public class Reverse {
     public static void main(String[] args) {
         System.out.println(reverse(123));
         System.out.println(reverse(1534236469));
+        System.out.println(reverse(120));
         System.out.println(reverse2(123));
         System.out.println(reverse2(1534236469));
     }
