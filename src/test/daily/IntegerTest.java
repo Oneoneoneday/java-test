@@ -1,7 +1,7 @@
-package test;
+package test.daily;
 
 /**
- * description
+ * Integer中的缓存类IntegerCache测试
  *
  * @author yonghua.li01@hand-china.com 2019/09/25 17:12
  */

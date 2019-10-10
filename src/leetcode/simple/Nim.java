@@ -1,4 +1,4 @@
-package simple;
+package leetcode.simple;
 
 /**
  * 轮流拿1-3块石头，你先拿，你要赢!

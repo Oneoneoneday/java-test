@@ -1,11 +1,11 @@
-package test;
+package test.daily;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 /**
- * description
+ * list的remove方法和subList方法测试
  *
  * @author yonghua.li01@hand-china.com 2019/09/25 17:14
  */

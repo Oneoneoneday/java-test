@@ -1,4 +1,4 @@
-package test;
+package test.java8;
 
 import java.util.Optional;
 import java.util.function.Consumer;

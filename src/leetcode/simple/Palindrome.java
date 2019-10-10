@@ -1,6 +1,4 @@
-package simple;
-
-import java.util.Arrays;
+package leetcode.simple;
 
 /**
  * leetcode-9 回文数

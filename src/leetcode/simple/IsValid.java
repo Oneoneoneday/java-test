@@ -1,4 +1,4 @@
-package simple;
+package leetcode.simple;
 
 /**
  * leetcode-20 有效的括号
