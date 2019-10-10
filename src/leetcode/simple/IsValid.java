@@ -7,6 +7,8 @@ package leetcode.simple;
  * 左括号必须用相同类型的右括号闭合。
  * 左括号必须以正确的顺序闭合。
  *
+ * 注意空字符串可被认为是有效字符串。
+ *
  * @author yonghua.li01@hand-china.com 2019/09/06 16:27
  */
 public class IsValid {
@@ -24,7 +26,7 @@ public class IsValid {
         //判断空字符串和字符串长度不为偶数，或者为偶数但是左右括号数量不匹配
         if ("".equals(s)) {
             return true;
-        } else if (s.length() % 2 != 0) {
+        } else if (null == s || s.length() % 2 != 0) {
             return false;
         }
         //记录左右括号出现的数量
