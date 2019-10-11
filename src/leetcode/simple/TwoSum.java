@@ -15,7 +15,7 @@ import java.util.Map;
  *
  * @author yonghua.li01@hand-china.com 2019/10/09 19:59
  */
-public class Solution {
+public class TwoSum {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
