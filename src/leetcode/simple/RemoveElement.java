@@ -29,6 +29,7 @@ public class RemoveElement {
     }
 
     public static int removeElement(int[] nums, int val) {
+        //将在nums中匹配的val 移到后面不匹配的 交换位置
         int len = nums.length;
         for (int i = 0; i < nums.length; i++) {
             if(nums[i] != val){
