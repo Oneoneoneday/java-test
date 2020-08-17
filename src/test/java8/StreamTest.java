@@ -30,11 +30,11 @@ public class StreamTest {
         random1.ints().limit(10).sorted().forEach(System.out::println);
         //filter 获取空字符串的数量
         List<String> strings1 = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
-        long count = strings1.stream().filter(string -> string.isEmpty()).count();
+        long count = strings1.stream().filter(String::isEmpty).count();
         System.out.println("stream 获取空字符串的数量:" + count);
         //并行（parallel）程序  获取空字符串的数量
         List<String> strings2 = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
-        long count1 = strings2.parallelStream().filter(string -> string.isEmpty()).count();
+        long count1 = strings2.parallelStream().filter(String::isEmpty).count();
         System.out.println("parallelStream 获取空字符串的数量:" + count1);
 
         //统计
